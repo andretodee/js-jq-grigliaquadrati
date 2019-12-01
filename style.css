@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 70%;
+  height: 800px;
+  margin: auto;
+  margin-top: 30px;
+
+}
+
+.quad{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+.line{
+  display: flex;
+  justify-content: center;
+}
+
+.quad.active{
+  background-color: green;
+}
+
+.red.active{
+  background-color: red;
+}
